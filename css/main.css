@@ -1,0 +1,119 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+	background-color: #F5F5F5;
+}
+.top-header{
+	min-height: 620px;
+	position: relative;
+}
+.header_topline{
+	background-color: #43484c;
+	padding: 15px 0;
+	color: #fff;
+}
+.soc_buttons{
+	float: right;
+}
+.soc_buttons > a{
+	font-size: 26px;
+	margin-left: 8px;
+	color: #fff;
+}
+.logo img{
+	width: 100px;
+	border-radius: 60px;
+}
+.main_mnu{
+	float: right;
+	text-transform: uppercase;
+}
+.main_mnu a{
+	color: #fff;
+	padding: 10px;
+	display: block;
+	-webkit-transition: all .25s;
+	-o-transition: all .25s;
+	transition: all .25s;
+}
+.main_mnu a:hover{
+	color: #FFA07A;
+}
+.main_mnu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: left;
+}
+.main_mnu ul li{
+	display: inline-block;
+	line-height: 80px;
+}
+.main_label{
+	border: 10px solid #43484c;
+	padding: 10px;
+	margin: 120px;
+	border-image: url(/home/lena/Downloads/template_bootstrap/images/label2.JPG) 15 round round;
+	text-align: center;
+	position: absolute;
+}
+.collections ul,
+.collections li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+}
+.collections li{
+	display: inline-block;
+	width: 300px;
+	position: relative;
+}
+.collections img{
+	max-width: 100%;
+	display: block;
+}
+.description{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	opacity: 0;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.collections li:hover .description{
+	opacity: 1;
+}
+h2{
+	text-align: center;
+}
+
+
