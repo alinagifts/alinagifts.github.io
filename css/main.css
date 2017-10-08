@@ -78,7 +78,7 @@ body {
 	border: 10px solid #43484c;
 	padding: 10px;
 	margin: 120px;
-	border-image: url(./images/label2.JPG) 15 round round;
+	border-image: url(../images/label2.JPG) 15 round round;
 	text-align: center;
 	position: absolute;
 }
