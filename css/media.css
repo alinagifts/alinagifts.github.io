@@ -10,9 +10,6 @@
     .main_mnu{
         display: none;
     }
-    .toggle-mnu{
-        line-height: 95px;
-    }
 }
 
 /* Small Devices, Tablets */
@@ -27,7 +24,7 @@
 	border-radius: 60px;
     }
     .toggle-mnu{
-        line-height: 90px;
+        margin: 35px auto 0px;;
     }
 }
 
