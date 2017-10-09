@@ -53,15 +53,15 @@ body {
 	float: right;
 	text-transform: uppercase;
 }
-.main_mnu a{
+.main_mnu ul li a{
 	color: #fff;
 	padding: 10px;
 	display: block;
-	-webkit-transition: all .25s;
-	-o-transition: all .25s;
-	transition: all .25s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
 }
-.main_mnu a:hover{
+.main_mnu ul li a:hover{
 	color: #FFA07A;
 }
 .main_mnu ul{

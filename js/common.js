@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 	$(".toggle-mnu").click(function(){
 		$(this).toggleClass("on");
+		$(".main_mnu").slideToggle();
 	});
 	//Таймер обратного отсчета
 	//Документация: http://keith-wood.name/countdown.html

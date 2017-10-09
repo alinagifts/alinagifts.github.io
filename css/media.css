@@ -9,6 +9,21 @@
 @media only screen and (max-width : 992px) {
     .main_mnu{
         display: none;
+        min-width: 320px;
+        text-align: right;
+    }
+    .main_mnu ul li{
+        display: block;
+        min-width: 320px;
+        padding: 0px;
+    }
+    .main_mnu ul li a{
+        padding: 15px;
+    }
+    .main_mnu ul li a:hover{
+        color: #fff;
+        border-radius: 100px;
+        background: url(../images/label2opasity.png);
     }
 }
 
