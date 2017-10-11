@@ -77,10 +77,11 @@ body {
 .main_label{
 	border: 10px solid #43484c;
 	padding: 10px;
-	margin: 30px 0px;
+	margin: 50px 0px;
 	text-align: center;
 	border-radius: 30px;
-	font-family: "MarckScriptRegular";
+	font-family: "AlexanderRegular";
+
 }
 .collections ul,
 .collections li{
@@ -117,7 +118,7 @@ h2{
 }
 h4{
 	color: #43484c;
-	font-family: "MarckScriptRegular";
+	font-family: "AlexanderRegular";
 	margin: 0px;
 	text-align: center;
 	font-size: 25px;
@@ -209,6 +210,12 @@ input{
 .toggle-mnu.on + #menu {
   opacity: 1;
   visibility: visible;
+}
+.homesect{
+	background-color: #43484c;
+}
+.uncollected_gift h2{
+	color: #fff;
 }
 
 
