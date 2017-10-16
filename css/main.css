@@ -247,14 +247,6 @@ input{
 	color: #fff;
 	
 }
-.uncollected_gift::before{
-    content: '';
-    height: 6px;
-    background-color: #000;
-    background-image: url(../images/bachroma.png);
-    width: 100%;
-    position: absolute;
-}
 .collected_gift{
     color: #fff;
 }
