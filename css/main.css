@@ -54,6 +54,17 @@ body {
     background: rgba(0,0,0,0.8);
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
+.dropdown-content a{
+    margin: 10px 0px;
+}
+.dropdown-content::before{
+    content: '';
+    height: 11px;
+    margin-top: -10px;
+    background-image: url(../images/arrow.png);
+    width: 100%;
+    position: absolute;
+}
 .dropdown:hover .dropdown-content {
     display: block;
 }
