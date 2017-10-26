@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+    $('.item').magnificPopup({
+        type: 'image',
+        gallery: {
+            enabled: true
+        }
+    });
 	$(".toggle-mnu").click(function(){
 		$(this).toggleClass("on");
 		$(".main_mnu").slideToggle();
