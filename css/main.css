@@ -134,7 +134,7 @@ body {
 }
 .description{
 	font-size: 20px;
-	padding: 80px 0px;
+	padding: 130px 0px;
 	text-transform: uppercase;
 	text-align: center;
 	position: absolute;
@@ -200,6 +200,9 @@ input{
 	text-align: center;
 	margin-top: 50px;
 	cursor: pointer;
+}
+.arrow-bottom a{
+    color: #43484c;
 }
 .toggle-mnu {
   display: block;
@@ -281,23 +284,32 @@ input{
 	width: 300px;
 	position: relative;
 }
-.description{
-	font-size: 20px;
-	padding: 80px 0px;
-	text-transform: uppercase;
-	text-align: center;
-	position: absolute;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0,0,0,.5);
-	color: #fff;
-	opacity: 0;
-	-webkit-transition: all .5s;
-	-o-transition: all .5s;
-	transition: all .5s;
-}
+
 .points li:hover .description{
 	opacity: 1;
+}
+.icons{
+    display: block;
+    
+}
+.icons{
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    margin: 10px 30px 25px 30px;
+    padding: 5px;
+    font-size: 40px;
+}
+.icons a{
+    color: #43484c;
+}
+.copyrights{
+    font-size: 20px;
+    margin: 35px 0px 0px 0px;
+}
+.number{
+    font-size: 30px;
+    margin: 20px 0px 0px 0px;
 }
 
 

@@ -33,8 +33,9 @@
 					<div class="col-md-8">
 						<nav class="main_mnu">
 							<ul>
-								<li><a href="#">Головна</a></li>
-								<li>
+								<li><a href="index.html">Головна</a></li>
+                                <li><a href="#gifts">Подарунки</a></li>
+								<!--<li>
                                     <div class="dropdown">
                                         <a href="#">Подарунки <i class="fa fa-chevron-circle-down" aria-hidden="true"></i></a>
                                         <div class="dropdown-content">
@@ -42,9 +43,9 @@
                                             <a href="#">Готові</a>
                                         </div>
                                     </div>
-                                </li>
-								<li><a href="#">Відгуки</a></li>
-								<li><a href="#">Контакти</a></li>
+                                </li>-->
+								<!--<li><a href="#">Відгуки</a></li>-->
+								<li><a href="#bottom">Контакти</a></li>
 							</ul>
 						</nav>
 					</div>				
@@ -77,10 +78,10 @@
 				</div>
 			</div>	
 		</div>
-		<div class="arrow-bottom"><i class="fa fa-arrow-down" aria-hidden="true"></i></div>
+		<div class="arrow-bottom"><a href="#gifts"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
         </div>
 	</header>
-	<section class="homesect">
+<!--	<section class="homesect">
 		<div class="uncollected_gift">
 			<div class="container">
 				<div class="col-md-12">
@@ -99,19 +100,41 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>-->
     <section class="homesect">
+        <a name="gifts"></a>
 		<div class="collected_gift">
 			<div class="container">
 				<div class="col-md-12">
 					<div class="row">
-						<h2>Тут можна подивитися та обрати вже готові коллекції подарунків!</h2>
+						<h2>Коллекції подарунків</h2>
 						<div class="collections">
 							<ul>
-								<a href="#"><li><span class="description">Звірятка</span><img src="./images/Uncollected/Rose/rose.jpg"></li></a>
-								<a href="#"><li><span class="description">Black&amp;White</span><img src="./images/Uncollected/Rose/rose.jpg"></li></a>
-								<a href="#"><li><span class="description">Акварельні</span><img src="./images/Uncollected/Rose/rose.jpg"></li></a>
-								<a href="#"><li><span class="description">ПАоштові</span><img src="./images/Uncollected/Rose/rose.jpg"></li></a>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <a href="animal.html"><li><span class="description">Звірятка</span><img src="./images/Collected/Animals/1.jpg"></li></a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="b&w.html"><li><span class="description">Black&amp;White</span><img src="./images/Collected/BlackAndWhite/1.jpg"></li></a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="acvarel.html"><li><span class="description">Акварельні</span><img src="./images/Collected/Acvarel/1.jpg"></li></a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <!--<div class="col-md-4">
+                                        <a href="post.html"><li><span class="description">Поштові</span><img src="./images/Collected/PersePost/1.jpg"></li></a>
+                                    </div>-->
+                                    <div class="col-md-4">
+                                        <a href="ornament.html"><li><span class="description">Орнамент</span><img src="./images/Collected/Ornament/1.jpg"></li></a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="ukrstyle.html"><li><span class="description">Український стиль</span><img src="./images/Collected/Ukrstyle/1.jpg"></li></a>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <a href="brels.html"><li><span class="description">Брелки</span><img src="./images/Collected/Brels/3.jpg"></li></a>
+                                    </div>
+                                </div>
 							</ul>
 						</div>
 					</div>
@@ -119,9 +142,15 @@
 			</div>
 		</div>
 	</section>
-	<section>
-		
-	</section>
+	<!--<section class="homesect">
+        <div class="review">
+            <div class="container">
+				<div class="row">
+                    <h2>Відгуки</h2>
+                </div>
+			</div>
+        </div>
+	</section>-->
 	<section class="about">
 		<div class="container">
 			<div class="rov">
@@ -141,7 +170,25 @@
 		
 	</article>
 	<footer>
-		
+        <a name="bottom"></a>
+		<div class="container">
+			<div class="rov">
+				<div class="col-md-4">
+                    <div class="copyrights"></div>
+					<span><i class="fa fa-copyright" aria-hidden="true"></i> Alina Mamenko</span> 
+				</div>
+				<div class="col-md-4">
+                    <div class="number">
+                        <span>+38(099)555 44 51</span>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="icons">
+                        <a href="https://www.instagram.com/alinagifts"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+			</div>
+		</div>
 	</footer>
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
