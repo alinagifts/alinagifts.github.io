@@ -308,6 +308,7 @@ input{
     margin: 35px 0px 0px 0px;
 }
 .number{
+	text-align: center;
     font-size: 30px;
     margin: 20px 0px 0px 0px;
 }
