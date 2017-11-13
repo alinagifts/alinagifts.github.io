@@ -30,8 +30,8 @@ $arr = array(
 foreach($arr as $key => $value) {
   $txt .= "<b>".$key."</b> ".$value."%0A";
 };
-//$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
-$homepage = file_get_contents("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}");
+$sendToTelegram = fopen("https://translate.google.com","r");
+//$homepage = file_get_contents("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}");
 if ($sendToTelegram) {
   
   echo '<p class="success">Спасибо за отправку вашего сообщения!</p>';
