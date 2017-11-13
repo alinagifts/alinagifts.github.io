@@ -61,22 +61,33 @@
 							<h1>Вітаю Вас на моєму сайті <q>Gifts Handmade</q>. Мене звати Аліна і я засновниця цього проекту. Ціль мого проекту - допомогти Вам дарувати радість близьким та коханим.</h1>
 					</div>			
 				</div>
-				<div class="col-md-4">
-					<form class="forms">
+				<!--<div class="col-md-4 form__wrapper">
+					<form id="form-contact" method="POST" class="form-element forms" autocomplete="off">
 						<h4>Форма зворотньго зв’язку</h4>
+                        <p class="form-message"></p>
 						<label>
 							Ваше ім’я
-							<input type="text" name="name" required>
+							<input name="name" type="text" class="form-input__name" tabindex="0" required>
 						</label>
 						<label>
 							Ваш телефон
-							<input type="text" name="phone" required>
+							<input name="phone" type="tel" class="form-input__phone" tabindex="0" pattern="^[ 0-9]+$" required>
 						</label>
 						<div class="button-wrap">
 							<button class="buttons">Відправити</button>
 						</div>
 					</form>
-				</div>
+				</div>-->
+                <div class="form__wrapper">
+                    <form id="form-contact" method="POST" class="form-element" autocomplete="off">
+                        <p class="form-title">Закажите обратный звонок и наш консультант свяжется с вами</p>
+                        <p class="form-message"></p>
+                        <input name="name" type="text" class="form-input__name" tabindex="0" placeholder="Введите ваше имя" required>
+                        <input name="phone" type="tel" class="form-input__phone" tabindex="0" pattern="^[ 0-9]+$" placeholder="Введите ваш телефон" required>
+                        <input name="theme" type="hidden" class="form-input__theme"  value="Заявка с сайта">
+                        <input type="submit" class="form-input__button" value="Отправить">
+                    </form>
+                </div>
 			</div>	
 		</div>
 		<div class="arrow-bottom"><a href="#gifts"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
