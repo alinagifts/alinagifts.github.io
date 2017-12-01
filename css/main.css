@@ -187,6 +187,11 @@ textarea{
 	padding: 0px 5px;
 	font-size: 20px;
 }
+.form__wrapper ul li{
+	display: inline-block;
+	
+}
+
 .buttons{
 	display: inline-block;
 	background-color: #43484c;
