@@ -191,7 +191,17 @@ textarea{
 	display: inline-block;
 	
 }
-
+.main_mnu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+	float: left;
+}
+.main_mnu ul li{
+	display: inline-block;
+	line-height: 60px;
+	margin-top: 20px;
+}
 .buttons{
 	display: inline-block;
 	background-color: #43484c;

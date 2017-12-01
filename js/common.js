@@ -130,7 +130,7 @@ var $contactForm = $('#contact-form');
 $contactForm.submit(function(e) {
 	e.preventDefault();
 	$.ajax({
-		url: '//formspree.io/alinagifts.art@gmail.com',
+		url: '//formspree.io/amamenko@ukr.net',
 		method: 'POST',
 		data: $(this).serialize(),
 		dataType: 'json',
