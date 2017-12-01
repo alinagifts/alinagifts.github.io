@@ -79,7 +79,7 @@ $(document).ready(function() {
 	
 	//Аякс отправка форм
 	//Документация: http://api.jquery.com/jquery.ajax/
-	$("form").submit(function() {
+	/*$("form").submit(function() {
 		$.ajax({
 			type: "GET",
 			url: "mail.php",
@@ -91,6 +91,38 @@ $(document).ready(function() {
 			}, 1000);
 		});
 		return false;
-	});
+	});*/
 
+    $("form-element").submit(function () {
+        var formID = $(this).attr('id');
+        var formNm = $('#' + formID);
+        var message = $(formNm).find(".form-message");
+        var formTitle = $(formNm).find(".form-title");
+        $.ajax({
+            type: "POST",
+            url: "mail.php",
+            data: formNm.serialize(),
+            success: function (data) {
+              // Вывод сообщения об успешной отправке
+              message.html(data);
+              formTitle.css("display","none");
+              setTimeout(function(){
+                formTitle.css("display","block");
+                message.html('');
+                $('input').not(':input[type=submit], :input[type=hidden]').val('');
+              }, 3000);
+            },
+            error: function (jqXHR, text, error) {
+                // Вывод сообщения об ошибке отправки
+                message.html(error);
+                formTitle.css("display","none");
+                setTimeout(function(){
+                  formTitle.css("display","block");
+                  message.html('');
+                  $('input').not(':input[type=submit], :input[type=hidden]').val('');
+                }, 3000);
+            }
+        });
+        return false;
+    });
 });

@@ -28,11 +28,32 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-    
+    .collections ul li{
+        float: none;
+        width: auto;
+        display: block;
+        margin: 0px 0px 15px 0px;
+    }
+    .description{
+	font-size: 20px;
+	padding: 113px 0px;
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	opacity: 0;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+    
     .logo img{
 	width: 80px;
 	border-radius: 60px;
@@ -46,14 +67,79 @@
     .main_label{
         border: 5px solid #43484c;
     }
+    .collections ul li{
+        float: none;
+        width: auto;
+        display: block;
+        margin: 0px 0px 15px 0px;
+    }
+    .points ul li{
+        float: none;
+        width: auto;
+        display: block;
+        margin: 0px 0px 15px 0px;
+    }
+
+    .description{
+	font-size: 20px;
+	padding: 200px 0px;
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	opacity: 0;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+    transition: all .5s;
+    }
+    footer{
+        text-align: center;
+    }
+    footer .number{
+        font-size: 20px;
+    }
+    footer .icons{
+        float: inherit;
+        font-size: 30px
+    }
 }
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+    .collections ul li{
+        float: none;
+        width: auto;
+        display: block;
+        margin: 0px 0px 15px 0px;
+    }
+    .description{
+	font-size: 20px;
+	padding: 113px 0px;
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	opacity: 0;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
 }
-
-
+    .points ul li{
+        float: none;
+        width: auto;
+        display: block;
+        margin: 0px 0px 15px 0px;
+    }
+    nav ul li{
+        max-width: 250px
+    }
+}
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */

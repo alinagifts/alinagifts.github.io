@@ -1,12 +1,8 @@
-<?php
-
-$recepient = "youmail@ya.ru";
-$sitename = "Название сайта";
-
-$name = trim($_GET["name"]);
-$phone = trim($_GET["phone"]);
-$text = trim($_GET["text"]);
-
-$pagetitle = "Новая заявка с сайта \"$sitename\"";
-$message = "Имя: $name \nТелефон: $phone \nТекст: $text";
-mail($recepient, $pagetitle, $message, "Content-type: text/plain; charset=\"utf-8\"\n From: $recepient");
+ <?php
+$botToken = "415769805:AAF_B_UClO0zgP1TAZ4_s4Ra6kRD-_3ELKo";
+$chat_id = "-221520487";
+$message = "heeeeey";
+$bot_url    = "https://api.telegram.org/bot$botToken/";
+$url = $bot_url."sendMessage?chat_id=".$chat_id."&text=".urlencode($message);
+file_get_contents($url);
+?>

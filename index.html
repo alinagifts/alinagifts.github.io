@@ -13,6 +13,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="shortcut icon" href="favicon.png" />
 	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid-3.3.1.min.css" />
+    <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
 	<link rel="stylesheet" href="libs/font-awesome-4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
 	<link rel="stylesheet" href="libs/owl-carousel/owl.carousel.css" />
@@ -60,22 +61,26 @@
 							<h1>Вітаю Вас на моєму сайті <q>Gifts Handmade</q>. Мене звати Аліна і я засновниця цього проекту. Ціль мого проекту - допомогти Вам дарувати радість близьким та коханим.</h1>
 					</div>			
 				</div>
-				<div class="col-md-4">
-					<form class="forms">
+				<!--<div class="col-md-4 form__wrapper">
+					<form id="form-contact" method="POST" class="form-element forms" autocomplete="off">
 						<h4>Форма зворотньго зв’язку</h4>
+                        <p class="form-message"></p>
 						<label>
 							Ваше ім’я
-							<input type="text" name="name" required>
+							<input name="name" type="text" class="form-input__name" tabindex="0" required>
 						</label>
 						<label>
 							Ваш телефон
-							<input type="text" name="phone" required>
+							<input name="phone" type="tel" class="form-input__phone" tabindex="0" pattern="^[ 0-9]+$" required>
 						</label>
 						<div class="button-wrap">
 							<button class="buttons">Відправити</button>
 						</div>
 					</form>
-				</div>
+				</div>-->
+                <div class="form__wrapper">
+                    <img src='mail.php?id=id_page'>
+                </div>
 			</div>	
 		</div>
 		<div class="arrow-bottom"><a href="#gifts"><i class="fa fa-arrow-down" aria-hidden="true"></i></a></div>
@@ -112,7 +117,7 @@
 							<ul>
                                 <div class="row">
                                     <div class="col-md-4">
-                                        <a href="animal.html"><li><span class="description">Звірятка</span><img src="./images/Collected/Animals/1.jpg"></li></a>
+                                        <a href="animal.html"><li><span class="description">Звірятка</span><img src="./images/Collected/Animals/3.jpg"></li></a>
                                     </div>
                                     <div class="col-md-4">
                                         <a href="b&w.html"><li><span class="description">Black&amp;White</span><img src="./images/Collected/BlackAndWhite/1.jpg"></li></a>
@@ -132,7 +137,7 @@
                                         <a href="ukrstyle.html"><li><span class="description">Український стиль</span><img src="./images/Collected/Ukrstyle/1.jpg"></li></a>
                                     </div>
                                     <div class="col-md-4">
-                                        <a href="brels.html"><li><span class="description">Брелки</span><img src="./images/Collected/Brels/3.jpg"></li></a>
+                                        <a href="brels.html"><li><span class="description">Брелоки</span><img src="./images/Collected/Brels/3.jpg"></li></a>
                                     </div>
                                 </div>
 							</ul>
@@ -196,8 +201,11 @@
 	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
 	<script src="libs/respond/respond.min.js"></script>
 	<![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
 	<script src="libs/jquery/jquery-1.11.1.min.js"></script>
 	<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+    <script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
 	<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
 	<script src="libs/waypoints/waypoints-1.6.2.min.js"></script>
 	<script src="libs/scrollto/jquery.scrollTo.min.js"></script>
