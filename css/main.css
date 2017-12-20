@@ -150,6 +150,24 @@ body {
 .collections li:hover .description{
 	opacity: 1;
 }
+.description_for_small{
+	font-size: 20px;
+	padding: 100px 0px;
+	text-transform: uppercase;
+	text-align: center;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	opacity: 0;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+}
+.collections li:hover .description_for_small{
+	opacity: 1;
+}
 h2{
 	text-align: center;
 }
