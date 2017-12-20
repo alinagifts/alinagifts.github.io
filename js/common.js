@@ -1,4 +1,6 @@
 $(document).ready(function() {
+    
+    
 
     $('.item').magnificPopup({
         type: 'image',
@@ -146,4 +148,7 @@ $contactForm.submit(function(e) {
             alert("Ops, there was an error.")
 		}
 	});
+});
+jQuery(function($){
+   $("#phone").mask("99/99/9999",{placeholder:" "});
 });
